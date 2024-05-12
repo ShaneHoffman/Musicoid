@@ -1,3 +1,5 @@
-export default function RadioPage() {
-  return <p>Radio Page</p>;
-}
+const RadioPage = () => {
+  return <p>Radio is coming soon...</p>;
+};
+
+export default RadioPage;

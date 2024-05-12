@@ -2,7 +2,7 @@ import Image from 'next/image';
 import NavigationLinks from './navigation-links';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
-export default function SideNavigation() {
+const SideNavigation = () => {
   return (
     <div className='flex flex-col h-full px-8 py-4 border-r gap border-ship-gray'>
       <Image
@@ -25,4 +25,6 @@ export default function SideNavigation() {
       </div>
     </div>
   );
-}
+};
+
+export default SideNavigation;

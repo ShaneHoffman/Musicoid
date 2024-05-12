@@ -11,7 +11,7 @@ const links = [
   { name: 'Radio', href: '/radio', icon: RadioIcon },
 ];
 
-export default function NavigationLinks() {
+const NavigationLinks = () => {
   const pathname = usePathname();
 
   return (
@@ -30,4 +30,6 @@ export default function NavigationLinks() {
       ))}
     </>
   );
-}
+};
+
+export default NavigationLinks;
